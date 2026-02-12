@@ -24,16 +24,17 @@ _Store List dulu, baru grup jadi rapih._ (≧◡≦) ♡
   <sub>Built on Baileys • Written in JavaScript • Designed for store sellers & admins</sub>
   <br/>
   <sub>
-    <a href="#-overview">Overview</a> •
-    <a href="#-paket--harga">Harga</a> •
-    <a href="#-store-list-fokus-utama">Store List</a> •
-    <a href="#-highlight-command-asli-dari-bot">Commands</a> •
-    <a href="#-order--kerja-sama">Order</a>
+    <a href="#overview">Overview</a> •
+    <a href="#paket-harga">Harga</a> •
+    <a href="#store-list">Store List</a> •
+    <a href="#commands">Commands</a> •
+    <a href="#order">Order</a>
   </sub>
 </div>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
+<a id="overview"></a>
 ## 🚀 Overview
 
 Fusionify BOT adalah bot WhatsApp premium yang fokusnya jelas: **STORE LIST dulu**, lalu manajemen grup, dan monitoring.
@@ -69,6 +70,7 @@ Fusionify BOT adalah bot WhatsApp premium yang fokusnya jelas: **STORE LIST dulu
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
+<a id="paket-harga"></a>
 ## 💎 Paket & Harga
 <div align="center">
 
@@ -91,6 +93,7 @@ Fusionify BOT adalah bot WhatsApp premium yang fokusnya jelas: **STORE LIST dulu
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
+<a id="store-list"></a>
 ## 🛍️ Store List (Fokus Utama)
 <table>
   <tr>
@@ -117,6 +120,7 @@ Fusionify BOT adalah bot WhatsApp premium yang fokusnya jelas: **STORE LIST dulu
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
+<a id="manajemen-grup"></a>
 ## 🛡️ Manajemen Grup
 <table>
   <tr>
@@ -143,6 +147,7 @@ Fusionify BOT adalah bot WhatsApp premium yang fokusnya jelas: **STORE LIST dulu
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
+<a id="architecture"></a>
 ## 🏗️ Architecture (High-level)
 
 ```mermaid
@@ -161,6 +166,7 @@ flowchart TD
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
+<a id="commands"></a>
 ## 🧩 Highlight Command (Asli dari Bot)
 
 <details>
@@ -193,6 +199,7 @@ flowchart TD
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
+<a id="order"></a>
 ## 📩 Order / Kerja Sama
 <div align="center">
 
@@ -212,6 +219,7 @@ flowchart TD
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
+<a id="lisensi"></a>
 ## 🔒 Lisensi & Distribusi
 Repo ini adalah **halaman publik** untuk informasi & showcase.  
 Kode/SC tetap **private** dan hanya dibagikan via jalur resmi.
