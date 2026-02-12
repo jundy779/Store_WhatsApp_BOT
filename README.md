@@ -1,12 +1,13 @@
 <div align="center">
 
 <!-- Wave Header -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=210&section=header&text=Fusionify%20BOT&fontSize=72&fontAlignY=35&animation=twinkling&fontColor=fff&desc=Store%20List%20%7C%20Group%20Management%20%7C%20Web%20Monitor&descAlignY=58&descSize=18" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=215&section=header&text=Fusionify%20BOT&fontSize=78&fontAlignY=35&animation=twinkling&fontColor=fff&desc=Store-First%20WhatsApp%20Bot%20%7C%20Group%20Management%20%7C%20Web%20Monitor&descAlignY=58&descSize=18" width="100%" />
 
 <img src="https://files.catbox.moe/3xv7p0.png" width="180" alt="Fusionify Bot" />
 
-**FTV BOT — WhatsApp Bot Premium**  
-_Store List dulu, grup aman belakangan._ (≧◡≦) ♡
+_🌸 Fusionify_  
+**FTV BOT — Store-First WhatsApp Bot (Premium)**  
+_Store List dulu, baru grup jadi rapih._ (≧◡≦) ♡
 
 <p align="center">
   <img src="https://img.shields.io/badge/Node.js-18%2B-3c873a?style=for-the-badge&logo=node.js&logoColor=white" alt="node">
@@ -19,16 +20,46 @@ _Store List dulu, grup aman belakangan._ (≧◡≦) ♡
 
 </div>
 
-## 🚀 Overview
-Fusionify BOT adalah bot WhatsApp **premium** yang dibuat untuk:
-- **Store List**: auto-reply produk (keyword), status order, feedback, open/close
-- **Store Tools**: payment, struk + PDF, testimonial, hutang, kalkulator, konversi
-- **Manajemen Grup**: proteksi anti suite + welcome/rules + admin tools
-- **Web Monitor**: dashboard realtime + logs + data sewa + command usage
+Built on Baileys • Written in JavaScript • Designed for store sellers & admins
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-## 💎 Paket & Harga
+_🚀 Overview_
+
+Fusionify BOT adalah bot WhatsApp premium yang fokusnya jelas: **STORE LIST dulu**, lalu manajemen grup, dan monitoring.
+
+<table>
+  <tr>
+    <td align="center" width="33%">
+      <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Shopping%20Bags.png" width="50" alt="Store"/>
+      <br/>
+      <b>Store List</b><br/>
+      keyword auto-reply<br/>
+      status order + feedback<br/>
+      open / close
+    </td>
+    <td align="center" width="33%">
+      <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Locked.png" width="50" alt="Group"/>
+      <br/>
+      <b>Group Management</b><br/>
+      anti suite<br/>
+      welcome & rules<br/>
+      admin tools
+    </td>
+    <td align="center" width="33%">
+      <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Bar%20Chart.png" width="50" alt="Monitor"/>
+      <br/>
+      <b>Web Monitor</b><br/>
+      realtime stats<br/>
+      logs + sewa list<br/>
+      command usage
+    </td>
+  </tr>
+</table>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+
+_💎 Paket & Harga_
 <div align="center">
 
 | Paket | Harga |
@@ -40,7 +71,7 @@ Fusionify BOT adalah bot WhatsApp **premium** yang dibuat untuk:
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-## 🛍️ Store List (Fokus Utama)
+_🛍️ Store List (Fokus Utama)_
 <table>
   <tr>
     <td align="center" width="33%">
@@ -64,7 +95,7 @@ Fusionify BOT adalah bot WhatsApp **premium** yang dibuat untuk:
   </tr>
 </table>
 
-## 🛡️ Manajemen Grup
+_🛡️ Manajemen Grup_
 <table>
   <tr>
     <td align="center" width="33%">
@@ -88,8 +119,32 @@ Fusionify BOT adalah bot WhatsApp **premium** yang dibuat untuk:
   </tr>
 </table>
 
-## 🧩 Highlight Command (Asli dari Bot)
-Prefix default: `.`
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+
+_🏗️ Architecture (High-level)_
+
+```mermaid
+flowchart TD
+  A[User Message] --> B[Baileys Client]
+  B --> C[Message Handler]
+  C --> D{Command Parser}
+  D -->|Store List| E[Store Engine]
+  D -->|Group Command| F[Group Engine]
+  D -->|Owner/Tools| G[Owner & Utility]
+  E --> H[(MongoDB)]
+  F --> H
+  C --> I[Web Monitor]
+  I --> H
+```
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+
+_🧩 Highlight Command (Asli dari Bot)_
+
+<details>
+<summary><b>Klik untuk lihat daftar command</b> (≧◡≦) ♡</summary>
+
+<br/>
 
 **Store List**
 - `list`, `addlist`, `updatelist`, `dellist`, `dellistno`, `viewlist`, `previewlist`
@@ -112,9 +167,11 @@ Prefix default: `.`
 **Sewa (Owner)**
 - `addsewa`, `renewsewa`, `ceksewa`, `listsewa`, `cekexpired`, `delsewa`
 
+</details>
+
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-## 📩 Order / Kerja Sama
+_📩 Order / Kerja Sama_
 <div align="center">
 
 **Minat sewa / beli SC? Yuk chat sekarang~** (｡•̀ᴗ-)✧
@@ -133,7 +190,7 @@ Prefix default: `.`
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-## 🔒 Lisensi & Distribusi
+_🔒 Lisensi & Distribusi_
 Repo ini adalah **halaman publik** untuk informasi & showcase.  
 Kode/SC tetap **private** dan hanya dibagikan via jalur resmi.
 - Dilarang re-upload / re-sell / claim ownership tanpa izin
