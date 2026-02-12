@@ -3,7 +3,7 @@
 <!-- Wave Header -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=215&section=header&text=Fusionify%20BOT&fontSize=78&fontAlignY=35&animation=twinkling&fontColor=fff&desc=Store-First%20WhatsApp%20Bot%20%7C%20Group%20Management%20%7C%20Web%20Monitor&descAlignY=58&descSize=18" width="100%" />
 
-<img src="https://files.catbox.moe/ipo648.jpeg" width="180" alt="Fusionify Bot" />
+![Liora Banner](https://files.catbox.moe/3xv7p0.png)
 
 _🌸 Fusionify_  
 **FTV BOT — Store-First WhatsApp Bot (Premium)**  
