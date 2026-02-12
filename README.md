@@ -42,25 +42,19 @@ Fusionify BOT adalah bot WhatsApp premium yang fokusnya jelas: **STORE LIST dulu
 <table>
   <tr>
     <td align="center" width="33%">
-      <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Shopping%20Bags.png" width="50" alt="Store"/>
-      <br/>
-      <b>Store List</b><br/>
+      <b>🛍️ Store List</b><br/>
       keyword auto-reply<br/>
       status order + feedback<br/>
       open / close
     </td>
     <td align="center" width="33%">
-      <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Locked.png" width="50" alt="Group"/>
-      <br/>
-      <b>Group Management</b><br/>
+      <b>🔐 Group Management</b><br/>
       anti suite<br/>
       welcome & rules<br/>
       admin tools
     </td>
     <td align="center" width="33%">
-      <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Bar%20Chart.png" width="50" alt="Monitor"/>
-      <br/>
-      <b>Web Monitor</b><br/>
+      <b>📊 Web Monitor</b><br/>
       realtime stats<br/>
       logs + sewa list<br/>
       command usage
