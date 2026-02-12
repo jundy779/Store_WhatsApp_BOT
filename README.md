@@ -13,6 +13,9 @@ _Store List dulu, baru grup jadi rapih._ (≧◡≦) ♡
   <img src="https://img.shields.io/badge/Node.js-18%2B-3c873a?style=for-the-badge&logo=node.js&logoColor=white" alt="node">
   <img src="https://img.shields.io/badge/MongoDB-Supported-4db33d?style=for-the-badge&logo=mongodb&logoColor=white" alt="mongodb">
   <img src="https://img.shields.io/badge/WhatsApp-Bot-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="whatsapp">
+  <a href="https://www.npmjs.com/package/@rexxhayanasi/elaina-baileys">
+    <img src="https://img.shields.io/badge/Baileys-elaina--baileys-C026D3?style=for-the-badge&logo=npm&logoColor=white" alt="elaina-baileys">
+  </a>
   <img src="https://img.shields.io/badge/Type-Premium-111827?style=for-the-badge" alt="premium">
 </p>
 
